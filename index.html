@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=2.0">
+  <title>Swayambhu</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Swayambhu</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Welcome to My First Project{Swayambhu}</h2>
+      <p>A website built with HTML, CSS, and JavaScript</p>
+      <p>Developer and Tester= @Swayambhu, do contact for website development.</P>
+      <button id="cta-button">Get Started</button>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About This Project of Mine</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>This is a simple demonstration of a responsive website created with pure HTML, CSS, and JavaScript. It's designed to be clean, modern, and easy to understand.</p>
+          <p>The site features smooth animations, responsive design, and interactive elements powered by JavaScript. Not only is this about the new architecture but also about the well known React, Tailwind and Pywin architectures all available in the vanilla version.</p>
+        </div>
+        <div class="about-image">
+          <div class="image-placeholder"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <div class="container">
+      <h2>Services</h2>
+      <div class="service-grid">
+        <div class="service-card">
+          <div class="icon">🎨</div>
+          <h3>Design</h3>
+          <p>Clean and modern design principles with responsive layouts.</p>
+        </div>
+        <div class="service-card">
+          <div class="icon">💻</div>
+          <h3>Development</h3>
+          <p>Hand-coded HTML, CSS, and JavaScript for optimal performance.</p>
+        </div>
+        <div class="service-card">
+          <div class="icon">📱</div>
+          <h3>Responsive</h3>
+          <p>Mobile-first approach ensuring great looks on all devices.</p>
+        </div>
+        <div class="service-card">
+          <div class="icon">🚀</div>
+          <h3>Performance</h3>
+          <p>Optimized for speed and accessibility.</p>
+          <button id= "cta-button">Brace Yourselves</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" rows="5" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+      <div id="form-message"></div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 First Project. All rights reserved by @Swayambhu.</p>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
