@@ -23,12 +23,16 @@ html {
   scroll-behavior: smooth;
 }
 
+html {
+  height: -webkit-fill-available;
+}
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   color: var(--text-color);
   background-color: var(--bg-color);
+  height: -webkit-fill-available;
 }
 
 .container {
