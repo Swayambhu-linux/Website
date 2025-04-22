@@ -1,3 +1,4 @@
+#my-element{ zoom: 120% !important;}
 /* Base Styles */
 :root {
   --primary-color: #4a6cfa;
@@ -21,6 +22,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
